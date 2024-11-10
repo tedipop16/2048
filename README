@@ -1,0 +1,22 @@
+Programarea Calculatoarelor, seria CC
+Tema2 - 2048
+Elev: Pop Ioan Teodor
+Grupa: 311 CC
+Am urmat cerintele , am implementat jocul.
+Am adaugat desenul si culori pentru o interfata mai atragatoare, mai
+prietenoasa.
+Am implementat funcia de automutare(o sa o consider bonus), doar ca nu am mai avut timp sa
+implementez si autoapelul acestueia dupa un numar de secunde
+In implementarea aplicatiei m-am lovit de probleme cu biblioteca ncurses,
+documentatia acestia fiind nedetaliata
+Am vrut sa utilizez si matrix.h din curses , dar nu am gasit
+documentatie sau exemple cu aceasta
+Implementarea a durat aproximativ 12 ore
+Interactionarea in aplciatie se face in meniu cu sageti pentru mutarea
+selectiei si enter pentru a executa ce ai selectat
+In joc, pe langa legendea, mutarile se fac din sageti, respectiv "wasd",
+Restul sunt vizibile in legenda
+Am mai adaugat si aratarea pe ecran a unui mesaj in cazul unei mutari invalide
+As fi vrut sa adaug si 
+Pentru compilare: make
+Pentru rulare: make run
